@@ -35,7 +35,7 @@ namespace Tyuiu.KarpovAA.Sprint3.Task0.V22
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine(res);
+            Console.WriteLine(res); 
             Console.ReadKey();
 
         }

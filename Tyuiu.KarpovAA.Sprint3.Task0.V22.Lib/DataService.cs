@@ -19,7 +19,7 @@ namespace Tyuiu.KarpovAA.Sprint3.Task0.V22.Lib
                 p *= ((Math.Pow(a, k) + 4) * Math.Cos(a));
             }
             
-            return Math.Round(p, 3);
+            return Math.Round(p, 3); 
         }
     }
 }

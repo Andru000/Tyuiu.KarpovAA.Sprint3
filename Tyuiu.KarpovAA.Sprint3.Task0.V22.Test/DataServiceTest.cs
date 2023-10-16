@@ -19,7 +19,7 @@ namespace Tyuiu.KarpovAA.Sprint3.Task0.V22.Test
 
                 Assert.AreEqual(wait, res, 6);
             }
-
+             
         }
     }
 }
