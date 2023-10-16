@@ -17,7 +17,7 @@ namespace Tyuiu.KarpovAA.Sprint3.Task0.V22
             Console.Title = "Спринт #3 | Выполнил: Карпов А. А. | ИИПб-23-1";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #3                                                               *");
-            Console.WriteLine("* Тема:                                                                   *");
+            Console.WriteLine("* Тема: Оператор цикла for                                                *");
             Console.WriteLine("* Задание #0                                                              *");
             Console.WriteLine("* Вариант #22                                                             *");
             Console.WriteLine("* Выполнил: Карпов Андрей Андреевич | ИИПб-23-1                           *");
@@ -29,13 +29,19 @@ namespace Tyuiu.KarpovAA.Sprint3.Task0.V22
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
 
-            double res = ds.GetSumSeries(0.25, 1, 8);
-     
+            double value = 0.25;
+            int startValue = 1;
+            int stopValue = 8;
+
+            Console.WriteLine("Переменная X = " + value);
+            Console.WriteLine("Старт шага = " + startValue);
+            Console.WriteLine("Конец шага = " + stopValue);
+
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine(res); 
+            Console.WriteLine("Сумма ряда = " + ds.GetSumSeries(value, startValue, stopValue));
             Console.ReadKey();
 
         }

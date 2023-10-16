@@ -11,14 +11,13 @@ namespace Tyuiu.KarpovAA.Sprint3.Task0.V22.Lib
     {
         public double GetSumSeries(double value, int startValue, int stopValue)
         {
-            double a = 0.25;
             double p = 1;
 
-            for (int k = 1; k <= 8; k++)
+            for (int k = startValue; k <= stopValue; k++)
             {
-                p *= ((Math.Pow(a, k) + 4) * Math.Cos(a));
+                p *= ((Math.Pow(value, k) + 4) * Math.Cos(value));
             }
-            
+
             return Math.Round(p, 3); 
         }
     }
