@@ -41,7 +41,7 @@ namespace Tyuiu.KarpovAA.Sprint3.Task0.V22
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine("Сумма ряда = " + ds.GetSumSeries(value, startValue, stopValue));
+            Console.WriteLine("Произведение ряда = " + ds.GetSumSeries(value, startValue, stopValue));
             Console.ReadKey();
 
         }
